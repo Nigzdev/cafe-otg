@@ -85,10 +85,10 @@ const Pricing = () => {
         <div className="absolute inset-0 gradient-radial opacity-30" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto animate-slide-up">
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">
               Simple, <span className="text-primary neon-text">Affordable</span> Pricing
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-base md:text-lg text-muted-foreground px-2">
               No hidden fees. Pay only for what you play. Student discounts and combo deals available.
             </p>
           </div>

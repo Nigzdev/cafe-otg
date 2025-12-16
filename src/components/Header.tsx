@@ -16,16 +16,16 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-xl border-b border-border/50">
+      <div className="container mx-auto px-3 sm:px-4">
+        <div className="flex items-center justify-between h-14 sm:h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center gap-1.5 sm:gap-2 group">
             <div className="relative">
-              <Gamepad2 className="w-8 h-8 text-primary transition-all group-hover:scale-110" />
+              <Gamepad2 className="w-6 h-6 sm:w-8 sm:h-8 text-primary transition-all group-hover:scale-110" />
               <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
-            <span className="font-display font-bold text-xl tracking-wider">
+            <span className="font-display font-bold text-lg sm:text-xl tracking-wider">
               <span className="text-foreground">OTG</span>
               <span className="text-primary neon-text"> CAFÉ</span>
             </span>
