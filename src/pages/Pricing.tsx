@@ -5,45 +5,34 @@ import Layout from '@/components/Layout';
 const Pricing = () => {
   const hourlyPlans = [
     {
-      name: 'Standard PC',
-      price: '₹60',
-      unit: '/hour',
-      description: 'Perfect for casual gaming sessions',
-      features: [
-        'High-performance PC',
-        'RTX 3060 Graphics',
-        '144Hz Monitor',
-        'Gaming Peripherals',
-      ],
-      popular: false,
-    },
-    {
-      name: 'Premium PC',
+      name: 'PC Gaming',
       price: '₹80',
       unit: '/hour',
-      description: 'For competitive and AAA gaming',
+      description: 'Premium gaming experience',
       features: [
-        'RTX 4070 Graphics',
-        '240Hz Monitor',
-        'Premium Peripherals',
-        'Priority Seating',
-        'Free Water Bottle',
+        'High-end Gaming PC',
+        'RTX Graphics',
+        '144Hz+ Monitor',
+        'Mechanical Keyboard',
+        'Gaming Mouse & Headset',
       ],
       popular: true,
+      duo: '₹150 for 2 persons',
     },
     {
-      name: 'Console Gaming',
+      name: 'PS5 Gaming',
       price: '₹100',
       unit: '/hour',
-      description: 'PS5 or Xbox Series X experience',
+      description: 'Console gaming on PS5',
       features: [
-        'PS5 / Xbox Series X',
+        'PlayStation 5 Console',
         '4K Gaming TV',
-        'Premium Controllers',
+        'DualSense Controllers',
         'Couch Seating',
-        'Split-screen Ready',
+        '2 PS5s Available',
       ],
       popular: false,
+      duo: '₹150 for 2 persons',
     },
   ];
 
@@ -113,13 +102,13 @@ const Pricing = () => {
             Hourly <span className="text-primary">Rates</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {hourlyPlans.map((plan, index) => (
               <div
                 key={index}
                 className={`relative p-6 md:p-8 rounded-2xl border transition-all duration-300 ${
                   plan.popular
-                    ? 'bg-card border-primary neon-glow scale-105'
+                    ? 'bg-card border-primary neon-glow'
                     : 'bg-card border-border hover:border-primary/50'
                 }`}
               >
@@ -140,6 +129,11 @@ const Pricing = () => {
                     </span>
                     <span className="text-muted-foreground">{plan.unit}</span>
                   </div>
+                  {plan.duo && (
+                    <div className="mt-2 px-3 py-1 rounded-full bg-secondary/20 text-secondary text-sm inline-block">
+                      {plan.duo}
+                    </div>
+                  )}
                 </div>
 
                 <ul className="space-y-3 mb-8">
