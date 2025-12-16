@@ -41,11 +41,11 @@ const Footer = () => {
             <h3 className="font-display font-semibold text-foreground">Get in Touch</h3>
             <div className="space-y-3">
               <a
-                href="tel:+1234567890"
+                href="tel:+919711442512"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
-                +91 123 456 7890
+                +91 97114 42512
               </a>
               <a
                 href="https://instagram.com/cafeotg"
@@ -58,7 +58,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-2 text-muted-foreground text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>123 Gaming Street, Tech Hub, City - 400001</span>
+                <span>Shop G7a, Onyx Plaza, Rajendra Nagar, Sector 3, Vasundhara, Ghaziabad 201012</span>
               </div>
             </div>
           </div>

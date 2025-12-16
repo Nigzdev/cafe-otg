@@ -160,7 +160,7 @@ const Pricing = () => {
                   }`}
                 >
                   <a
-                    href="https://wa.me/1234567890?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
+                    href="https://wa.me/919711442512?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -259,7 +259,7 @@ const Pricing = () => {
             className="bg-primary hover:bg-primary/90 neon-glow font-semibold"
           >
             <a
-              href="https://wa.me/1234567890?text=Hi!%20I%20have%20a%20question%20about%20OTG%20Café%20pricing"
+              href="https://wa.me/919711442512?text=Hi!%20I%20have%20a%20question%20about%20OTG%20Café%20pricing"
               target="_blank"
               rel="noopener noreferrer"
             >

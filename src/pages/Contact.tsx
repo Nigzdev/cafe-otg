@@ -3,12 +3,12 @@ import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 
 const Contact = () => {
-  const contactInfo = [
+const contactInfo = [
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 123 456 7890',
-      href: 'tel:+911234567890',
+      value: '+91 97114 42512',
+      href: 'tel:+919711442512',
     },
     {
       icon: Instagram,
@@ -19,8 +19,8 @@ const Contact = () => {
     {
       icon: MapPin,
       label: 'Address',
-      value: '123 Gaming Street, Tech Hub, City - 400001',
-      href: 'https://maps.google.com/?q=Gaming+Street+Tech+Hub',
+      value: 'Shop G7a, Onyx Plaza, Rajendra Nagar, Sector 3, Vasundhara, Ghaziabad, UP 201012',
+      href: 'https://maps.google.com/?q=OTG+Gaming+Cafe+Ghaziabad',
     },
   ];
 
@@ -111,7 +111,7 @@ const Contact = () => {
                   className="w-full bg-[#25D366] hover:bg-[#20BD5A] text-white font-semibold"
                 >
                   <a
-                    href="https://wa.me/1234567890?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
+                    href="https://wa.me/919711442512?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2"
@@ -131,7 +131,7 @@ const Contact = () => {
               
               <div className="relative rounded-2xl overflow-hidden border border-border h-[400px] lg:h-[500px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.755659775897!2d72.8777!3d19.076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA0JzMzLjYiTiA3MsKwNTInMzkuNyJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5!2d77.45!3d28.66!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1b6d8c9b8e1%3A0x1234567890!2sOTG+Gaming+Cafe!5e0!3m2!1sen!2sin!4v1234567890"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -147,14 +147,14 @@ const Contact = () => {
                   <div className="flex items-center gap-3">
                     <MapPin className="w-5 h-5 text-primary flex-shrink-0" />
                     <span className="text-sm text-foreground">
-                      123 Gaming Street, Tech Hub, City - 400001
+                      Shop G7a, Onyx Plaza, Rajendra Nagar, Sector 3, Vasundhara, Ghaziabad
                     </span>
                   </div>
                 </div>
               </div>
 
               <a
-                href="https://maps.google.com/?q=Gaming+Street+Tech+Hub"
+                href="https://maps.google.com/?q=OTG+Gaming+Cafe+Ghaziabad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
