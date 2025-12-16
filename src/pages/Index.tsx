@@ -61,24 +61,24 @@ const Index = () => {
             </div>
 
             {/* Main Heading */}
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-4 md:mb-6 leading-tight">
               <span className="text-foreground">Game.</span>{' '}
               <span className="text-primary neon-text">Chill.</span>{' '}
               <span className="text-foreground">Repeat.</span>
             </h1>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base md:text-xl text-muted-foreground mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed px-2">
               Welcome to Cafe Off The Grid — your ultimate gaming sanctuary. 
               High-end setups, immersive vibes, and a community of passionate gamers.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 px-4 sm:px-0">
               <Button
                 asChild
                 size="lg"
-                className="bg-primary hover:bg-primary/90 neon-glow text-lg px-8 py-6 font-semibold group"
+                className="w-full sm:w-auto bg-primary hover:bg-primary/90 neon-glow text-base md:text-lg px-6 md:px-8 py-5 md:py-6 font-semibold group"
               >
                 <a
                   href="https://wa.me/919711442512?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
@@ -93,7 +93,7 @@ const Index = () => {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-border hover:bg-muted text-lg px-8 py-6 font-semibold"
+                className="w-full sm:w-auto border-border hover:bg-muted text-base md:text-lg px-6 md:px-8 py-5 md:py-6 font-semibold"
               >
                 <Link to="/pricing">
                   View Pricing

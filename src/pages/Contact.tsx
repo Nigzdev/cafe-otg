@@ -33,14 +33,14 @@ const contactInfo = [
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 overflow-hidden">
+      <section className="relative py-12 sm:py-16 md:py-28 overflow-hidden">
         <div className="absolute inset-0 gradient-radial opacity-30" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto animate-slide-up">
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">
               Find <span className="text-primary neon-text">Us</span>
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-base md:text-lg text-muted-foreground px-2">
               Visit us at our gaming café or reach out for bookings and inquiries
             </p>
           </div>
