@@ -81,7 +81,7 @@ const Index = () => {
                 className="bg-primary hover:bg-primary/90 neon-glow text-lg px-8 py-6 font-semibold group"
               >
                 <a
-                  href="https://wa.me/1234567890?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
+                  href="https://wa.me/919711442512?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -208,7 +208,7 @@ const Index = () => {
                 className="bg-primary hover:bg-primary/90 neon-glow text-lg px-10 py-6 font-semibold"
               >
                 <a
-                  href="https://wa.me/1234567890?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
+                  href="https://wa.me/919711442512?text=Hi!%20I%20want%20to%20book%20a%20gaming%20slot%20at%20OTG%20Café"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
